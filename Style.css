@@ -1,0 +1,81 @@
+
+
+html, body{
+  height: 100%;
+  background-color: white;
+  }
+
+.container{
+  top: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: white;
+}
+
+.button{
+  display: block;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  min-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 3%;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: lightblue;
+
+}
+
+/* The navigation bar */
+.navbar{
+  position: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  top: 3px;
+  left: 1%;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  z-index: 15;
+  background-color: rgb(108, 255, 243);
+}
+
+/* Links inside the navbar */
+.navbar a{
+
+  padding: 10px 20px;     /*  10px top & bottom, 20px at sides */
+  border:none;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(108, 255, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.navbar a:hover{
+  background-color: rgb(108, 184, 255);
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24pt;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+p{
+  margin: 5px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14pt;
+}
+
+
+
