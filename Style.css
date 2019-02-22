@@ -19,7 +19,6 @@ html, body{
   font-size: 20px;
   min-height: 100px;
   text-align: center;
-  vertical-align: middle;
   text-decoration: none;
   padding: 3%;
   border: 1px solid black;
@@ -30,36 +29,47 @@ html, body{
 
 /* The navigation bar */
 .navbar{
-  position: block;
   display: flex;
-  flex-wrap: wrap;
-  flex: 1;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-content: stretch;
-  top: 3px;
-  left: 1%;
   margin: 0;
   width: 100%;
   height: auto;
-  z-index: 15;
-  background-color: rgb(108, 255, 243);
+  /*border: 2px solid blue;*/
+  background-color: rgb(147, 255, 188);
+
+}
+
+.navbar a:hover{
+  background-color: rgb(89, 219, 128);
 }
 
 /* Links inside the navbar */
 .navbar a{
-
-  padding: 10px 20px;     /*  10px top & bottom, 20px at sides */
-  border:none;
+  /*border: 1px solid black;*/
+  padding: 0 20px;
+  width: auto;
+  height: 100%;
+  line-height: 170%;
+  white-space: nowrap;
   text-align: center;
+  background-color: rgb(147, 255, 188);
   text-decoration: none;
-  background-color: rgb(108, 255, 243);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-family: "Calibri", sans-serif;
 }
 
-.navbar a:hover{
-  background-color: rgb(108, 184, 255);
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: grey;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 h1{
