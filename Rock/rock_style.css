@@ -1,0 +1,92 @@
+
+html{
+    height: auto;
+}
+
+body{
+    display: block;
+    overflow: scroll;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    height: auto;
+    margin-top: 54px;
+    margin-bottom: 0;
+  }
+
+.info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    margin: auto;
+    width: 70vw;
+    height: auto;
+    padding: 2vw;
+}
+
+h1{
+    font-family: "Calibri", sans-serif;
+    margin: 1vw;
+    padding: 1vw;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+#response{
+    margin-top : 2vw;
+    margin-bottom: 1vw;
+    /*border: 1px solid red;*/
+}
+
+ul{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    /*border: 1px solid black;*/
+    list-style: none;
+}
+
+li{
+    font-family: "Calibri", sans-serif;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+p{
+    display: block;
+    position: relative;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    padding: 1vw;
+}
+
+.buttons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    padding: 2vw;
+    /*border: 1px solid black;*/
+}
+
+.button{
+    width: 20vw;
+    min-width: 150px;
+    padding: 5vw;
+    /*border: 1px solid blue;*/
+    margin: 1vw;
+    font-size: 100%;
+}
+

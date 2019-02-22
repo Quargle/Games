@@ -1,22 +1,53 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Rock-Paper-Scissors</title>
-  <link rel="stylesheet" type="text/css" href="../reset.css">
-  <link rel="stylesheet" type="text/css" href="../Style.css">
-</head>
-<body>
+<html>
 
-  <div class="navbar">
-    <!-- Banner at top of page that stays visible-->
-    <a href="../index.html" >Index</a>
-    <a href="../Rock/rock.html" >Rock - Paper - Scissors</a>
-    <a href="../Drumkit/drumkit.html" >Drumkit</a>
-    <a href="../Etch-a-Sketch/sketch.html" >Etch-a-Sketch</a>
-  </div>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" type="text/css" href="../reset.css">
+        <link rel="stylesheet" type="text/css" href="../Style.css">
+        <link rel="stylesheet" type="text/css" href="rock_style.css">
+    </head>
 
-  <h1>The rock - paper - scissors site is still under construction.</h1>
+    <body>
+    
+        <div class="navbar">
+        <!-- Banner at top of page that stays visible-->
+            <a href="../index.html" >Index</a>
+            <a href="../Rock/rock.html" >Rock - Paper - Scissors</a>
+            <a href="../Noughts-Crosses/noughts-crosses.html" >Noughts and Crosses</a>
+            <a href="../Drumkit/drumkit.html" >Drumkit</a>
+            <a href="../Etch-a-Sketch/sketch.html" >Etch-a-Sketch</a>
+        </div>
 
-</body>
+        <div class="info">
+            <h1>Welcome to Rock-Paper-Scissors</h1>
+            <p id="starting instruction">Click one of the options to begin!</p>
+            <ul>
+                <li id="playerWins">Player Wins: 0</li>
+                <li id="computerWins">Computer Wins: 0</li>
+                <li id="draws">Draws: 0</li>
+            </ul>
+
+            <div id="response">
+                <p id="computerMove"></p>
+                <p id="result"></p>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button class="button" id="rock">Rock</button>
+            <button class="button" id="paper">Paper</button>
+            <button class="button" id="scissors">Scissors</button>
+        </div>
+        
+        <div class="footer">
+            <p>Source code for this game can be found at 
+                <a href="https://github.com/Quargle/Games">https://github.com/Quargle/Games</a>
+            </p>
+        </div>
+
+        <script src="rock.js"></script>
+    </body>
 </html>
