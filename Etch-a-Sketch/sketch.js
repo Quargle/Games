@@ -23,7 +23,6 @@ function createGrid(size){
 
 function changeColor(e){
     e.target.style.backgroundColor = 'black';
-    console.log(e);
 }
 
 function resetSquares(){
@@ -35,8 +34,10 @@ function resetSquares(){
 }
 
 function changeGridSize(){
-    console.log(window.size);
-    window.size = prompt('Choose a new size:', window.size);
+    window.size = prompt('Choose a new size (1-100):', window.size);
+    while (window.size > 100){
+        window.size = prompt('Please enter a value below 100:', window.size);
+    }
     createGrid(window.size);
 }
 
