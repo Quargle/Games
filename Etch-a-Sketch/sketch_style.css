@@ -6,9 +6,10 @@ h1{
 
 .grid-container{
     display: grid;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin: auto;
+    margin-bottom: 20px;
     justify-content: center;
     align-content: center;
     border: 1px solid black;
