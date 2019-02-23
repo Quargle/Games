@@ -1,5 +1,6 @@
 
 
+
 function createGrid(size){
     const container = document.querySelector('.grid-container')
     container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
@@ -34,8 +35,9 @@ function resetSquares(){
 }
 
 function changeGridSize(){
-    let size = prompt('Choose a new size:');
-    createGrid(size);
+    console.log(window.size);
+    window.size = prompt('Choose a new size:', window.size);
+    createGrid(window.size);
 }
 
 
@@ -54,12 +56,11 @@ function createButtonListeners(){
 
     //create event listener on click for size change button
     changeSize = document.getElementById('changeSize');
-    console.log(changeSize);
     changeSize.addEventListener('click', changeGridSize);
 }
 
-var size = 25;
-createGrid(size);
+window.size = 25;
+createGrid(window.size);
 createButtonListeners();
 
 
