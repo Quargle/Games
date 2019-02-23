@@ -59,7 +59,7 @@ function createButtonListeners(){
     changeSize.addEventListener('click', changeGridSize);
 }
 
-window.size = 25;
+window.size = 50;
 createGrid(window.size);
 createButtonListeners();
 

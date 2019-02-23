@@ -5,22 +5,7 @@ html{
 
 body{
     display: block;
-    overflow: scroll;
 }
-
-
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    background-color: grey;
-    height: auto;
-    margin-top: 54px;
-    margin-bottom: 0;
-  }
 
 .info{
     position: relative;
@@ -31,7 +16,7 @@ body{
     margin: auto;
     width: 70vw;
     height: auto;
-    padding: 2vw;
+    padding: 1vw;
 }
 
 h1{
@@ -50,7 +35,7 @@ h1{
 
 ul{
     margin-top: 1vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
     /*border: 1px solid black;*/
     list-style: none;
 }
@@ -77,7 +62,7 @@ p{
     justify-content: space-around;
     width: 80vw;
     margin: auto;
-    padding: 2vw;
+    padding: 1vw;
     /*border: 1px solid black;*/
 }
 
