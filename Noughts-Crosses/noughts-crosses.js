@@ -98,14 +98,16 @@ function computerChoose(){
         }
     }
 
+    console.log("Just pick something...");
+    available = [];
     for (i=0; i<9; i++){
-        console.log("Just pick something...");
         if (board[i] === ""){
-            board[i] = '0';
-            document.getElementById(`${i}`).innerHTML = '0';    
-            return;
+            available.push(i);
         }
     }
+    choice = available[Math.floor(Math.random() * available.length)];
+    document.getElementById(`${choice}`).innerHTML = '0';  
+    board[choice] = '0';
 }
 
 function whoGoesFirst(human, computer){
