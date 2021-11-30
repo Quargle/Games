@@ -1,11 +1,4 @@
 
-html{
-    height: auto;
-}
-
-body{
-    display: block;
-}
 
 .info{
     position: relative;
@@ -51,7 +44,6 @@ p{
     position: relative;
     font-family: "Calibri", sans-serif;
     text-align: center;
-    padding: 1vw;
 }
 
 .buttons{

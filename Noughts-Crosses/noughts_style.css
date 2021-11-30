@@ -1,9 +1,5 @@
 
-h1{
-    font-size: 30;
-    padding: 0px;
-    margin: 20px;
-}
+
 
 .info{
     height: 50px;
@@ -47,20 +43,6 @@ h1{
     justify-content: center;
     text-align: center;
     vertical-align: middle;
-}
-
-.button{
-    height: auto;
-    width: 200px;
-    margin: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    padding: 10px 17px;
-    border: 1px solid black;
-    background-color: lightblue;
 }
 
 .button:hover{

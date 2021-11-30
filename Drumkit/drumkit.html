@@ -4,20 +4,33 @@
   <meta charset="UTF-8">
   <title>Drumkit</title>
   <link rel="stylesheet" type="text/css" href="../reset.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="../Style.css">
   <link rel="stylesheet" type="text/css" href="drumkit_style.css">
 </head>
 <body>
 
-  <div class="navbar">
-    <!-- Banner at top of page that stays visible-->
-    <a href="../index.html" >Index</a>
-    <a href="../Rock/rock.html" >Rock - Paper - Scissors</a>
-    <a href="../Noughts-Crosses/noughts-crosses.html" >Noughts and Crosses</a>
-    <a href="../Drumkit/drumkit.html" >Drumkit</a>
-    <a href="../Etch-a-Sketch/sketch.html" >Etch-a-Sketch</a>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Games with JavaScript</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="../index.html">Index</a>
+          <a class="nav-link" href="../Rock/rock.html">Rock Paper Scissors</a>
+          <a class="nav-link" href="../Noughts-Crosses/noughts-crosses.html">Noughts and Crosses</a>
+          <a class="nav-link active" aria-current="page" href="../Drumkit/drumkit.html">Drumkit</a>
+          <a class="nav-link" href="../Etch-a-Sketch/sketch.html">Etch-a-Sketch</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
+    <main>
   <h1>The drumkit allows you to play the drums using your keyboard.</h1>
 
   <div class="keys">
@@ -59,11 +72,12 @@
     </div>
   </div>
 
-  <div class="footer">
-    <p>This drumkit is based (heavily) on that provided by Wes Bos:
-    find the source code for the original on github <a href="https://github.com/wesbos/JavaScript30">here</a>, 
-      and a youtube tutorial on how to make it <a href="https://www.youtube.com/watch?v=VuN8qwZoego">here</a>.</p>
-  </div>
+  </main>
+  <footer class="footer mt-auto py-1 bg-dark">
+    <p>Source code for this game can be found at 
+      <a href="https://github.com/Quargle/Games">https://github.com/Quargle/Games</a>
+    </p>
+  </footer>
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
   <audio data-key="83" src="sounds/hihat.wav"></audio>
