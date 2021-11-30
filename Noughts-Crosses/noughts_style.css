@@ -29,8 +29,9 @@
     background-color: rgb(226, 226, 226);
     text-align: center;
     line-height: 95px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: calibri;
+    font-size: 5rem;
+    font-weight: bolder;
 }
 
 .space:hover{
