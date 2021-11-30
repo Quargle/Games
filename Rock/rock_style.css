@@ -12,14 +12,6 @@
     padding: 1vw;
 }
 
-h1{
-    font-family: "Calibri", sans-serif;
-    margin: 1vw;
-    padding: 1vw;
-    /*border: 1px solid black;*/
-    text-align: center;
-}
-
 #response{
     margin-top : 2vw;
     margin-bottom: 1vw;
@@ -37,6 +29,10 @@ li{
     font-family: "Calibri", sans-serif;
     /*border: 1px solid red;*/
     text-align: center;
+}
+
+.card {
+    display: block;
 }
 
 p{
@@ -61,9 +57,9 @@ p{
 .button{
     width: 20vw;
     min-width: 150px;
-    padding: 5vw;
+    padding: 3vw;
     /*border: 1px solid blue;*/
     margin: 1vw;
-    font-size: 100%;
+    font-size: 3rem;
 }
 
